@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/getEmail": {
+      "name": "/getEmail",
+      "lambdaFunction": "getEmail",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/manageUser": {
+      "name": "/manageUser",
+      "lambdaFunction": "manageUser",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

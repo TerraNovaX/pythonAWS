@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apipython-dev-64f6c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::337909766842:role/amplify-apipython-dev-64f6c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::337909766842:role/amplify-apipython-dev-64f6c-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-apipython-dev-64f6c-deployment",
+      "UnauthRoleName": "amplify-apipython-dev-64f6c-unauthRole",
+      "StackName": "amplify-apipython-dev-64f6c",
+      "StackId": "arn:aws:cloudformation:eu-west-1:337909766842:stack/amplify-apipython-dev-64f6c/24a4dc00-9c77-11ef-85ce-0a3e377060e9",
+      "AmplifyAppId": "dqwx9xxqxmcb0",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-apipython-dev-64f6c-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "manageUser": {
+          "deploymentBucketName": "amplify-apipython-dev-64f6c-deployment",
+          "s3Key": "amplify-builds/manageUser-485462575044416d4a73-build.zip"
+        },
+        "apipythonutils": {
+          "deploymentBucketName": "amplify-apipython-dev-64f6c-deployment",
+          "s3Key": "amplify-builds/apipythonutils-LambdaLayerVersionf986778b-build.zip"
+        },
+        "getEmail": {
+          "deploymentBucketName": "amplify-apipython-dev-64f6c-deployment",
+          "s3Key": "amplify-builds/getEmail-756a775568774d71312b-build.zip"
+        }
+      },
+      "api": {
+        "users": {}
+      },
+      "storage": {
+        "users": {}
+      },
+      "auth": {
+        "apipython": {}
+      }
+    }
+  }
+}
